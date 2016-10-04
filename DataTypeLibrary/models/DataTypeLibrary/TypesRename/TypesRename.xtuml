@@ -4,7 +4,7 @@ INSERT INTO EP_PKG
 	VALUES ("5fd0aadb-eae0-4bfb-b723-1f473c0ec5cd",
 	"1fbaf547-a76f-443f-9b24-8f8d4f2a5b7b",
 	"1fbaf547-a76f-443f-9b24-8f8d4f2a5b7b",
-	'Types',
+	'TypesRename',
 	'',
 	0);
 INSERT INTO GD_MD
@@ -25,14 +25,14 @@ INSERT INTO GD_MD
 	150,
 	0,
 	'',
-	'DataTypeLibrary::Types');
+	'DataTypeLibrary::TypesRename');
 INSERT INTO GD_GE
 	VALUES ("a7c63c3b-de6c-4f3b-8172-d1e4fe92b41e",
 	"dde53278-9e8a-4cb0-b362-b1ec37c30606",
 	"6c81e368-603a-4a16-828e-35c1a8fce82b",
 	51,
 	0,
-	'DataTypeLibrary::Types::myInt');
+	'DataTypeLibrary::TypesRename::myInt');
 INSERT INTO GD_SHP
 	VALUES ("a7c63c3b-de6c-4f3b-8172-d1e4fe92b41e");
 INSERT INTO GD_NCS
