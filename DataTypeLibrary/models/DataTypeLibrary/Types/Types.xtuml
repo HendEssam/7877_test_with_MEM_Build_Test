@@ -1,0 +1,86 @@
+-- BP 7.1.6 content: Package syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO EP_PKG
+	VALUES ("5fd0aadb-eae0-4bfb-b723-1f473c0ec5cd",
+	"1fbaf547-a76f-443f-9b24-8f8d4f2a5b7b",
+	"1fbaf547-a76f-443f-9b24-8f8d4f2a5b7b",
+	'Types',
+	'',
+	0);
+INSERT INTO GD_MD
+	VALUES ("dde53278-9e8a-4cb0-b362-b1ec37c30606",
+	112,
+	"5fd0aadb-eae0-4bfb-b723-1f473c0ec5cd",
+	108,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	200,
+	150,
+	0,
+	'',
+	'DataTypeLibrary::Types');
+INSERT INTO GD_GE
+	VALUES ("a7c63c3b-de6c-4f3b-8172-d1e4fe92b41e",
+	"dde53278-9e8a-4cb0-b362-b1ec37c30606",
+	"6c81e368-603a-4a16-828e-35c1a8fce82b",
+	51,
+	0,
+	'DataTypeLibrary::Types::myInt');
+INSERT INTO GD_SHP
+	VALUES ("a7c63c3b-de6c-4f3b-8172-d1e4fe92b41e");
+INSERT INTO GD_NCS
+	VALUES ("a7c63c3b-de6c-4f3b-8172-d1e4fe92b41e");
+INSERT INTO DIM_ND
+	VALUES (200.000000,
+	150.000000,
+	"a7c63c3b-de6c-4f3b-8172-d1e4fe92b41e");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"a7c63c3b-de6c-4f3b-8172-d1e4fe92b41e",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("a7c63c3b-de6c-4f3b-8172-d1e4fe92b41e",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_DIA
+	VALUES ("dde53278-9e8a-4cb0-b362-b1ec37c30606",
+	'',
+	1.000000,
+	0.000000,
+	0.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO S_DT
+	VALUES ("6c81e368-603a-4a16-828e-35c1a8fce82b",
+	"00000000-0000-0000-0000-000000000000",
+	'myInt',
+	'',
+	'');
+INSERT INTO S_UDT
+	VALUES ("6c81e368-603a-4a16-828e-35c1a8fce82b",
+	"ba5eda7a-def5-0000-0000-000000000002",
+	0);
+INSERT INTO PE_PE
+	VALUES ("6c81e368-603a-4a16-828e-35c1a8fce82b",
+	1,
+	"5fd0aadb-eae0-4bfb-b723-1f473c0ec5cd",
+	"00000000-0000-0000-0000-000000000000",
+	3);
+INSERT INTO PE_PE
+	VALUES ("5fd0aadb-eae0-4bfb-b723-1f473c0ec5cd",
+	1,
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000",
+	7);
+INSERT INTO S_SYS_PROXY
+	VALUES ("1fbaf547-a76f-443f-9b24-8f8d4f2a5b7b",
+	'DataTypeLibrary',
+	1,
+	'../DataTypeLibrary.xtuml');
